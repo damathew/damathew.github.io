@@ -1,60 +1,115 @@
+<!DOCTYPE html>
+<!-- Uses the lasted HTLM version -->
 <html>
 <head>
-	<title> HW1 </title>
-<h1>HOME WORK Assignment#1</h1>
+	<title>Day 5</title>
+
+	<!-- Bootstrap shoudl first item in header file -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- makes the phone viewing easier and adjusts if the screen is small and large-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
 </head>
+
+<!-- Bootstrap is where you combine css files and html files -->
+
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<!-- Remember fix sits on top of everything in terms of styles -->
 
-<hr>
-<b>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-<!-- titles the list with numbers -->
-<h1>
-<ol> People 
-<li>dean</li>
-<li style="color:yellow">	Neeta</li>
-<li>	mark</li>
-<li>	luke</li>
-</ol>
-</h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+            
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-<!-- title the list with dots -->
-<ul>teest
-<li>testing
+<div class="jumbotron home-page-jumbotron">
+	<div class="container">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+</div>  
 
-
-</li>
-</ul>
-
-
-	<!-- love the lorem -->
-	<h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p></h1>
-</b>
-
-<img src="http://scottandkat.ca/wp-content/uploads/2013/10/Toronto_Maple_Leafs_by_bbboz-1024x640.jpg">
-
-<img src="Images/leafsplayoffs_thumb.jpg">	
-
-<br>
-<h1><a href="Pages/new_page.html">link 2</a></h1>
-
-<hr>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<!-- <div class="jumbotron">
+	<div class="container">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+</div>   -->
 
 
-<!-- HTML is coool and easy now bring on the hard stuff -->
 
+<div class="container-fluid">
+	<h2 class="text-center"> How Lyft Works</h2>
+
+<div class="row text-center">
+	
+	<div class="col-md-4">
+		<h3>1. Request</h3>
+		<p>Whether your're riding soloe or with friend</p>
+		<img class="img-responsive center-block" src="https://cdn.lyft.net/brochure/images/app-screen-request-ride.a7352627.png">
+	</div>
+	
+	<div class="col-md-4">
+		<h3>2. Ride</h3>
+		<p>Get picked up by the best. Our reliable drivers will get you where you need to go.</p>
+		<img class="img-responsive center-block" src="https://cdn.lyft.net/brochure/images/app-screen-get-picked-up.e8273321.png">
+	</div>
+	<div class="col-md-4">
+		<h3>3. Pay</h3>
+		<p>When the ride ends, just pay and rate your driver through your phone.</p>
+		<img class="img-responsive center-block" src="https://cdn.lyft.net/brochure/images/app-screen-get-there.2c9e0291.png">
+	</div>
+</div>
+
+</div>
+
+
+
+<!-- jqueryuery must be above java script bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+<!-- Java bootstrap scripts -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
+
