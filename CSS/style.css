@@ -1,0 +1,90 @@
+
+/*my css file for pages*/
+
+/*
+.box {
+height: 150px;
+width: 150px;
+background-color: blue;
+position: relative;
+top: 20px;
+left: 20px;
+
+
+}
+
+.orangebox {
+height: 50px;
+width: 50 px;
+background-color: orange;
+position: relative;
+top: 100px;
+left: 50px;
+
+}
+
+.wrapper {
+height: 200px;
+width: 700px;
+border: 2px solid black;
+position: absolute;
+top: 150px;
+left: 150px;
+
+
+}
+
+.navigation {
+height: 20px;
+background-color: Red;
+position: fixed;
+width: 1200px;
+
+}
+
+
+.zindexexample{
+height: 200px;
+width: 200px;
+background-color: pink;
+z-index:-5;
+
+/*must set a position with z-index*/
+
+/*
+position: absolute;
+
+}
+
+.section{
+height: 70px;
+width: 150px;
+background-color: purple;
+margin: 20px;
+border: 2px solid black;
+display: inline-block;
+left: 150px;
+position: relative;
+
+*/
+
+body{
+
+background-color: blue; 
+
+}
+
+img{
+
+	width: 250px;
+}
+
+.home-page-jumbotron{
+	background-color: green;
+	position: relative;
+	top:50px;
+	height: 500px;
+	background-image: url("https://wallpaperscraft.com/image/planet_light_spots_space_86643_1920x1080.jpg");
+	color:white;
+
+}
